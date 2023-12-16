@@ -1,0 +1,68 @@
+:root {
+  font-family: 'Varela Round', 'Pretendard', sans-serif;
+  line-height: 1.5;
+}
+
+.dark {
+  background-color: #222;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.dark button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #777;
+}
+
+.light {
+  background-color: #fff;
+  color: #111;
+  transition: all 0.5s ease;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  width: 600px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+nav {
+  height: 80px;
+  text-align: right;
+  padding: 2rem 2rem 0;
+}
+nav button {
+  font-size: 2rem;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  margin: 0 8px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1px 0 #acacac;
+  transform: scale(1.1);
+}
+
+button .icon {
+  font-size: 1.5rem;
+}
